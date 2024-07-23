@@ -1,11 +1,12 @@
 {
   "name": "vue-beercss-table",
-  "version": "1.0.4",
+  "version": "1.0.15",
   "description": "A Vue.js component that provides a customizable table with support for selectable rows and sorting. Built using Vue 3 and BeerCSS.",
   "main": "dist/vue-beercss-table.umd.js",
   "module": "dist/vue-beercss-table.es.js",
   "files": [
-    "dist"
+    "dist",
+    "src/styles/style.css"
   ],
   "scripts": {
     "dev": "vite",
@@ -25,9 +26,10 @@
   "author": "igorf3rn4nd0",
   "license": "MIT",
   "dependencies": {
-    "vue": "^3.4.31",
     "beercss": "^3.6.8",
-    "material-dynamic-colors": "^1.1.2"
+    "material-dynamic-colors": "^1.1.2",
+    "vite-plugin-css-injected-by-js": "^3.5.1",
+    "vue": "^3.4.31"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",

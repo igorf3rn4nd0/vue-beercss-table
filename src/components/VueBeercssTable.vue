@@ -129,16 +129,4 @@ function sort(column) {
   emit('sort', column)
 }
 </script>
-<style scoped>
-.fixed-header {
-  position: sticky;
-  top: 0;
-  z-index: 2;
-  background: inherit;
-}
-
-.row-checkbox {
-  position: relative;
-  z-index: 1;
-}
-</style>
+<style scoped src="../styles/style.css"></style>
